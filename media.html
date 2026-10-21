@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icons</title>
+
+    <script src="https://kit.fontawesome.com/e747016902.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        :root {
+            --navy: #1E3A5F;
+            --dark-red: rgb(106, 28, 28);
+            --red: red;
+            --light-blue: rgb(17, 69, 154);
+            --black: black;
+            --dark-blue: rgb(57, 57, 182);
+            --width: 50px;
+
+
+        }
+
+        .social-media {
+
+            position: fixed;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            
+        }
+
+        .social-media a {
+
+            display: flex;
+            text-decoration: none;
+            width: fit-content;
+            height: 60px;
+            font-style: normal;
+            align-items: center;
+            color: white;
+            
+        }
+        .social-media i {
+            width: 60px;
+        
+        }
+.social-media span {
+    max-width: 0;
+    overflow: hidden;
+    transition: 0.3 ;
+}
+.social-media a:hover span {
+    max-width: 250px;
+    padding-right:15px ;
+}
+        .facebook {
+           background-color:#1E3A5F;
+            font-size: var(--width);
+
+        }
+
+        .twitter {
+            background-color: var(--light-blue);
+            font-size: var(--width);
+
+        }
+
+        .instagram {
+            background-color: var(--dark-red);
+            font-size: var(--width);
+        }
+
+        .linkedin {
+            background-color: var(--dark-blue);
+            font-size: var(--width);
+        }
+
+        .youtube {
+            background-color: var(--red);
+            font-size: var(--width);
+        }
+
+        .github {
+            background-color: var(--black);
+            font-size: var(--width);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="social-media">
+        <div>
+            <a class="facebook" href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i><span>facebook</span></a>
+
+        </div>
+        <div>
+            <a class="twitter" href="http://x.com" target="_blank"><i class="fa-brands fa-twitter"></i><span>twitter</span></a>
+
+        </div>
+        <div>
+            <a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i><span>instagram</span> </a>
+
+        </div>
+        <div>
+            <a class="linkedin" href="http://www.linkedin.com" target="_blank" ><i class="fa-brands fa-linkedin"></i><span>linkedin</span></a>
+        </div>
+        <div>
+            <a class="youtube" href="http://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i><span>youtube</span></a>
+
+        </div>
+        <div>
+            <a class="github" href="http://www.github.com" target="_blank"><i class="fa-brands fa-github-alt"></i><span>github</span></a>
+
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
